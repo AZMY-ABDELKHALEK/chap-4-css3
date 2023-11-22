@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Utilisez la police "Roboto" pour tout le texte */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Style pour la barre de navigation */
+.navbar {
+  background-color: #333; /* Couleur de fond de la barre de navigation */
+  color: #fff; /* Couleur du texte */
+  text-align: center; /* Centrage du texte */
+  padding: 10px 0; /* Espacement intérieur en haut et en bas */
+}
+
+/* Style pour les liens de la barre de navigation */
+.nav-link {
+  text-decoration: none; /* Enlever la soulignement des liens */
+  color: #fff; /* Couleur du texte des liens */
+  margin: 0 10px; /* Espacement horizontal entre les liens */
+  font-weight: bold; /* Texte en gras */
+}
+
+/* Ajoutez une classe "highlight" pour mettre en évidence des éléments */
+.highlight {
+  background-color: #f4d03f; /* Couleur de fond jaune */
+  color: #333; /* Couleur du texte */
+  padding: 5px; /* Espacement intérieur */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+/* Ajoutez une classe "large-text" pour agrandir le texte */
+.large-text {
+  font-size: 24px; /* Taille de police plus grande */
+}
+
+/* Ajoutez une classe "bordered-box" pour encadrer un élément */
+.bordered-box {
+  border: 2px solid #333; /* Bordure solide de 2px */
+  padding: 10px; /* Espacement intérieur */
+  margin: 10px 0; /* Espacement extérieur en haut et en bas */
+}
